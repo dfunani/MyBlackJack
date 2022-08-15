@@ -1,0 +1,27 @@
+body {
+	text-align: center;
+	background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvIuVscZLAjMF7Zlyj9TcOZx7OqhyLwfGbvkJtY4H3Hg&s');
+	background-size: cover;
+	color: white;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
+}
+
+button {
+	background-color: goldenrod;
+	border-style: none;
+	border-radius: 2px;
+	color: #016f32;
+	font-weight: bold;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+h1 {
+	color: goldenrod;
+}
+
+div {
+	margin: 30px;
+}
