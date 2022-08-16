@@ -10,17 +10,25 @@
 	</head>
 
 	<body>
-		<h1>Blackjack</h1>
-		<div id="display-message">Want to play a round?</div>
-		<div>Dealer:<span id="dealer-deck"></span></div>
-		<div>Sum: <span id="dealer-sum"></span></div>
-		<div>Player:<span id="card-deck"></span></div>
-		<div>Sum: <span id="game-sum">0</span></div>
-		<div class="row"><button onclick="startGame()" id="game-btn">START GAME</button></div>
-		<div class="row"><button onclick="draw_card()" id="draw-btn">Draw Card</button></div>
-		<div class="row"><button onclick="fold()" id="fold-btn">Fold</button></div>
-		<div class="row"><button onclick="restartGame()" id="restart-btn">Restart Game</button></div>
-		<script src="index.js"></script>
+		<div class="container">
+			<h1>Blackjack</h1>
+			<div id="display-message">Want to play a round?</div>
+			<div>Player's Cards:<span id="card-deck"></span></div>
+			<div>Player's Sum: <span id="game-sum"></span></div>
+			<div class="row"><button onclick="startGame()" id="game-btn">START GAME</button></div>
+			<div class="row"><button onclick="draw_card()" id="draw-btn">Draw Card</button></div>
+			<div class="row"><button onclick="fold()" id="fold-btn">Fold</button></div>
+			<div class="row"><button onclick="restartGame()" id="restart-btn">Restart Game</button></div>
+
+			<div class="row">
+				<p id="bet"></p><input id="wager" type="number" step="0.01" min="0.01" value="1"><button onclick="bet()"
+					id="bet-btn">Place
+					Bet</button>
+			</div>
+			<div id="chips"></div>
+			<div id="dealer"></div>
+			<script src="index.js"></script>
+		</div>
 	</body>
 
 </html>

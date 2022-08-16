@@ -25,3 +25,10 @@ h1 {
 div {
 	margin: 30px;
 }
+
+#wager {
+	width: 60px;
+	height: 19px;
+	border-radius: 5px;
+	font-weight: bold;
+}
